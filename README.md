@@ -34,6 +34,8 @@ wokwi-cli --timeout 10000 --scenario blink.test.yaml
 
 Refer this for generating and using a Wokwi CI token https://docs.wokwi.com/wokwi-ci/getting-started#cli-usage
 
+The CI Token can be set as an environment variable in `.env` file. Change `.env.example` file to `.env` and use the command `source .env && make` to build and test the program.
+
 
 ## Simulation with Wokwi for VSCode
 
