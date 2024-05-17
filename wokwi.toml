@@ -1,0 +1,6 @@
+[wokwi]
+version = 1
+elf = "build/led_blink.ino.elf"
+firmware = "build/led_blink.ino.hex"
+bin = "build/led_blink.ino.bin"
+gdbServerPort = 3333

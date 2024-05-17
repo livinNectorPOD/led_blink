@@ -1,0 +1,15 @@
+default_fqbn: STMicroelectronics:stm32:Nucleo_64:pnum=NUCLEO_C031C6,dbg=enable_sym
+default_profile: nucleo-c0
+build:
+  project_name: sketch
+profiles:
+  nucleo-c0:
+    fqbn: STMicroelectronics:stm32:Nucleo_64:pnum=NUCLEO_C031C6,dbg=enable_sym
+    platforms:
+      - platform: STMicroelectronics:stm32 (2.7.1)
+        platform_index_url: https://github.com/stm32duino/BoardManagerFiles/raw/main/package_stmicroelectronics_index.json
+
+
+    
+
+
