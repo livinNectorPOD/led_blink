@@ -9,9 +9,11 @@ This project uses three different programming APIs to control different pheriphe
 
 ## Instructions
 
-1. Install `arduino-cli`
-2. Install `wokwi-cli` for testing.
+1. Install [`arduino-cli`](https://arduino.github.io/arduino-cli/0.35/installation/).
+2. Install [wokwi-cli](https://github.com/wokwi/wokwi-cli) for testing.
 3. Install `make` utitlity for running commands from `Makefile`
+
+**Note:** `setup.sh` has the installation script for both `arduino-cli` and `wokwi-cli`
 
 ## Building
 
